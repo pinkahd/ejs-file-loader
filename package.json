@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "EJS Webpack Template Loader",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "cd test && ../node_modules/.bin/webpack && node bundle.js"
+    "test": "cd test && ../node_modules/.bin/webpack && node bundle.js",
+    "travis:integration": "npm run test",
+    "publish-patch": "npm run test && npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -16,30 +21,25 @@
     "loader",
     "template"
   ],
-  "author": [
-    {
-      "name": "Vasily Ostanin",
-      "email": "bazilio91@gmail.com"
-    },
-    {
-      "name": "Alexandru Pinca",
-      "email": "alex@alexandru-pinca.me"
-    }
-  ],
+  "author": {
+    "name": "Alexandru Pinca",
+    "email": "alex@alexandru-pinca.me",
+    "url" : "https://alexandru-pinca.me/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pinkahd/ejs-loader/issues"
   },
   "homepage": "https://github.com/pinkahd/ejs-loader",
   "dependencies": {
-    "ejs": "^2.0.0",
-    "html-minifier": "^3",
+    "ejs": "^2.5.7",
+    "html-minifier": "^3.5.9",
     "loader-utils": "^1.1.0",
     "merge": "^1.2.0",
-    "uglify-js": "~2.6.1"
+    "uglify-js": "^3.3.10"
   },
   "devDependencies": {
-    "node-libs-browser": "^0.5.0",
+    "node-libs-browser": "^2.1.0",
     "webpack": "^1.9.4"
   }
 }

@@ -1,5 +1,7 @@
 # Webpack EJS Template Loader
 
+[![Build Status](https://travis-ci.org/pinkahd/ejs-file-loader.svg?branch=master)](https://travis-ci.org/pinkahd/ejs-file-loader)
+
 EJS loader for [webpack](http://webpack.github.io/). Uses [ejs](https://github.com/mde/ejs) function to compile templates.
 
 ## Installation

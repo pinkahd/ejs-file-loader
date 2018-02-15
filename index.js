@@ -6,7 +6,7 @@ var ejs = require('ejs'),
   merge = require('merge');
 
 
-module.exports = function (source) {
+module.exports = function(source) {
   this.cacheable && this.cacheable();
 
   var opts = merge(this.options['ejs-compiled-loader'] || {}, utils.getOptions(this));
