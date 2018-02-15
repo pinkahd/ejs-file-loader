@@ -1,14 +1,14 @@
 {
-  "name": "ejs-compiled-loader",
-  "version": "2.2.0",
-  "description": "EJS webpack loader (without frontend dependencies)",
+  "name": "ejs-file-loader",
+  "version": "1.0.0",
+  "description": "EJS Webpack Template Loader",
   "main": "index.js",
   "scripts": {
     "test": "cd test && ../node_modules/.bin/webpack && node bundle.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bazilio91/ejs-compiled-loader.git"
+    "url": "https://github.com/pinkahd/ejs-loader.git"
   },
   "keywords": [
     "ejs",
@@ -16,12 +16,21 @@
     "loader",
     "template"
   ],
-  "author": "Vasily Ostanin <bazilio91@gmail.com>",
+  "author": [
+    {
+      "name": "Vasily Ostanin",
+      "email": "bazilio91@gmail.com"
+    },
+    {
+      "name": "Alexandru Pinca",
+      "email": "alex@alexandru-pinca.me"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bazilio91/ejs-compiled-loader/issues"
+    "url": "https://github.com/pinkahd/ejs-loader/issues"
   },
-  "homepage": "https://github.com/bazilio91/ejs-compiled-loader",
+  "homepage": "https://github.com/pinkahd/ejs-loader",
   "dependencies": {
     "ejs": "^2.0.0",
     "html-minifier": "^3",
