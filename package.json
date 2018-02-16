@@ -1,6 +1,6 @@
 {
   "name": "ejs-file-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EJS Webpack Template Loader",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
   "author": {
     "name": "Alexandru Pinca",
     "email": "alex@alexandru-pinca.me",
-    "url" : "https://alexandru-pinca.me/"
+    "url": "https://alexandru-pinca.me/"
   },
   "license": "MIT",
   "bugs": {
