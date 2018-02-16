@@ -2,15 +2,15 @@
 
 [![Build Status](https://travis-ci.org/pinkahd/ejs-file-loader.svg?branch=master)](https://travis-ci.org/pinkahd/ejs-file-loader)
 
-EJS loader for [webpack](http://webpack.github.io/). Uses [ejs](https://github.com/mde/ejs) function to compile templates.
+> EJS loader for [webpack](http://webpack.github.io/). Uses [ejs](https://github.com/mde/ejs) function to compile templates.
 
-## Installation
+## :cloud: Installation
 
-`npm install ejs-file-loader`
+`npm i -D ejs-file-loader`
 
-## Usage
+## :clipboard: Example
 
-[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
+### JavaScript
 
 ``` javascript
 var template = require("ejs-file-loader!./file.ejs");
@@ -24,7 +24,9 @@ template(data) // Pass object with data
 <%- include templates/child -%>
 ```
 
-## Options
+## :memo: Documentation
+
+[Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 Following options can be specified in query:
 
@@ -52,9 +54,9 @@ module: {
 
 See [all options reference](https://github.com/kangax/html-minifier#options-quick-reference)
 
-## License
+## :scroll: License
 
-MIT (http://www.opensource.org/licenses/mit-license.php)
+[MIT](http://www.opensource.org/licenses/mit-license.php)
 
 
 
