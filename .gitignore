@@ -1,6 +1,11 @@
 node_modules
-
-#ide
 .idea
 /*.iml
 test/bundle.js
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspac
+npm-debug.log*
