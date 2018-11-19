@@ -1,6 +1,6 @@
 {
   "name": "ejs-file-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EJS Webpack Template Loader",
   "main": "index.js",
   "files": [
