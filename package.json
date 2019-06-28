@@ -33,7 +33,7 @@
   "homepage": "https://github.com/pinkahd/ejs-loader",
   "dependencies": {
     "ejs": "^2.5.7",
-    "html-minifier": "^3.5.9",
+    "html-minifier": "^4.0.0",
     "loader-utils": "^1.1.0",
     "merge": "^1.2.1",
     "uglify-js": "^3.3.10"
