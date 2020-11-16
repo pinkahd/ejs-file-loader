@@ -35,7 +35,7 @@
     "ejs": "^2.5.7",
     "html-minifier": "^4.0.0",
     "loader-utils": "^2.0.0",
-    "merge": "^1.2.1",
+    "merge": "^2.1.0",
     "uglify-js": "^3.3.10"
   },
   "devDependencies": {
