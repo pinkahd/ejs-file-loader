@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "node-libs-browser": "^2.1.0",
-    "webpack": "^1.9.4"
+    "webpack": "^5.16.0"
   }
 }
